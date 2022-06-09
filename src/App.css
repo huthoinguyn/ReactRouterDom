@@ -1,0 +1,11 @@
+@tailwind base;
+
+@layer base {
+  nav {
+    @apply min-h-[80px] mx-auto max-w-md flex justify-around items-center border-b-2;
+  }
+
+  nav > * {
+    @apply hover:text-blue-600;
+  }
+}
